@@ -1,0 +1,53 @@
+body {
+    background: #F5F5F0;
+    color: black;
+    font-family: Monaco, monospace; /* Fallback to a common monospace font */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add some padding around the content */
+}
+
+.list-movies-title {
+    padding: 10px 0;
+    background: #009B50;
+    color: white;
+    text-align: center; /* Center align the title */
+    font-size: 16pt;
+}
+
+.movie-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center items horizontally */
+}
+
+.movie-item {
+    background: #fff; /* Background for movie item */
+    border: 1px solid #ddd; /* Border for movie item */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding inside movie items */
+    margin: 10px; /* Space between items */
+    width: 150px; /* Fixed width for uniformity */
+    text-align: center; /* Center align text inside movie item */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.movie-title,
+.movie-year,
+.movie-rating,
+.movie-actors {
+    font-size: 0.9em; /* Slightly larger font for readability */
+    margin: 5px 0; /* Vertical spacing between lines */
+}
+
+.movie-rating {
+    color: #3e1010; /* Specific color for rating */
+}
+
+.movie-poster {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    width: 128px; /* Fixed width */
+    height: auto; /* Maintain aspect ratio */
+}
